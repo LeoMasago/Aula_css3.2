@@ -4,11 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        .col,
+        .col-md-auto {
+            background-color: white;
+            border: 1px solid gray;
+        }
+    </style>
 </head>
 
 <body>
-
+    <div class="container">
+        <h1>Titulo Principal</h1>
+        <p>Aqui vai o conteúdo.</p>
+    </div>
+    <div class="container-fuid">
+        <h1>Titulo Principal</h1>
+        <p>Aqui vai o conteúdo.</p>
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <th>Ted</th>
+            <th>22</th>
+            <th>Estudande</th>
+        </tr>
+        <tr>
+            <th>Ralf</th>
+            <th>26</th>
+            <th>Designer</th>
+        </tr>
+    </table>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-6">conteúdo</div>
+            <div class="col-md-4 col-xs-6">conteúdo</div>
+            <div class="col-md-4 col-xs-6">conteúdo</div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2">
+                1 de 3
+            </div>
+            <div class="col-md-auto">Conteúdo com largura variável</div>
+            <div class="col col-lg-2">3 de 3</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            1 de 3
+        </div>
+        <div class="col-md-auto">Conteúdo com largura variável</div>
+        <div class="col col-lg-2">3 de 3</div>
+    </div>
 </body>
 
 </html>
